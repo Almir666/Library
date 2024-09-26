@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-author
+      author: Almir
+      changes:
+        - createTable:
+            tableName: book
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: title
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: author
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: dateOfCreate
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: genre
+                  type: varchar(50)
+                  constraints:
+                    nullable: false

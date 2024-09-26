@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: change-column-author
+      author: Almir
+      changes:
+        - renameColumn:
+            tableName: book
+            newColumnName: date
+            oldColumnName: dateOfCreate
