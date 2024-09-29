@@ -14,3 +14,6 @@ spring:
   h2:
     console:
       enabled: true
+
+#http://localhost:8080/h2-console/login:
+#  jsp?jsessionid=a69c4050bd072ab63bc16ad33cb57221:

@@ -19,5 +19,4 @@ public class Book {
     private String date;
     @Column(nullable = false)
     private String genre;
-
 }
